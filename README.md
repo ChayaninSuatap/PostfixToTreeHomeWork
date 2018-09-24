@@ -1,1 +1,3 @@
 PostfixToTreeHomeWork
+
+![](screenshot.PNG)
