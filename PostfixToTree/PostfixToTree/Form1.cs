@@ -20,6 +20,9 @@ namespace PostfixToTree
             imageList = new ImageList();
             imageList.Images.Add(Properties.Resources.fire);
             treeView1.ImageList = imageList;
+            Console.Write("Input postfix : ");
+            textBox1.Text = Console.ReadLine();
+            butEval_Click(null, null);
         }
 
         private void butEval_Click(object sender, EventArgs e)
